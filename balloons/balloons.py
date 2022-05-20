@@ -7,17 +7,17 @@ def solution(S):
         if char in keys:
             count[char] += 1
     
-    #check results: L and O is the limiting factor
+    #check results: check the minimum of L and O and B A N to see which one is the limiting factor
     doubles = min(  count['L'], count['O'])
     singles = min(  count['B'], count['A'], count['N'] )
 
-    #this can never work
-    if doubles < 2 or singles < 1:
+    
+    if doubles < 2 or singles < 1: #this can never work
         return 0
-    elif singles*2 <= doubles:
+    elif singles*2 <= doubles: #limited factor: B A N
         return singles
-    else:
-        return int(doubles / 2)
+    else: #limiting factor: O L
+        return int(doubles / 2) #here we take advantage of the fact int() will work as floor
 
 
 
