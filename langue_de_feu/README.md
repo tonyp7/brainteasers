@@ -17,3 +17,16 @@ Here the first vowel 'e' get an 'av' prefix, but not 'u' since it's a double vow
 
 translate('langue de feu') => 'lavangavue dave faveu'
 ```
+
+Note that the real langue de feu slang is a bit more complicated than that, but in this coding exercise the rules have been extremely simplified.
+
+# solution
+
+This would be extremely simple if the rule for the double vowel did not exist. However this does not make it a lot more difficult.
+
+In this algorithm, we simply iterate character per character over the original text, and build an output with the following rule:
+ - if the character is a vowel
+   - if the preceding character is a vowel, do not add 'av', else add 'av'
+ - else add the character straight to the output
+
+This is as straightforward as it gets.
