@@ -22,6 +22,9 @@ solution('ONLABLABLOONONLABLABLOON') => 3
 
 # solution
 
+<details>
+    <summary markdown="span">click to reveal</summary>
+    
 The key to the algorithm is to realize that you need one of each 'B', 'A', 'N', and two of each 'L' and 'O'
 
 The first step is to count each letter appearing in a dictionary.
@@ -35,4 +38,4 @@ There are three cases:
 - if minBAL*2 <= minLO, the limiting factor is BAL, so we can only write BALLOON minBAL times
 - otherwise, the limiting facotr is LO, so we can only only write BALLOON minLO times. If the number is not even it is rounded down.
 
-
+</details>

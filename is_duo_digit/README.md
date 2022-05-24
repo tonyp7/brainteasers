@@ -13,6 +13,11 @@ is_duo_digit(7887) => 'y'
 ```
 
 
+# solutions
+
+<details>
+    <summary markdown="span">click to reveal</summary>
+    
 # solution 1: naive but completely workable approach
 
 The solution that I propose is first of all to transform the number to a string, so that it's easy to iterate over each number without doing math (%10).
@@ -39,3 +44,5 @@ The more "aggressive" algorithm would simply return as soon as it detects a 3rd 
 If after iterating over the entire chain the case has not presented itself, it means the number is a valid duo_digit.
 
 Both solutions give a result in O(N)
+
+</details>

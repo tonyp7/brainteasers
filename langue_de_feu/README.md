@@ -22,6 +22,9 @@ Note that the real langue de feu slang is a bit more complicated than that, but 
 
 # solution
 
+<details>
+    <summary markdown="span">click to reveal</summary>
+    
 This would be extremely simple if the rule for the double vowel did not exist. However this does not make it a lot more difficult.
 
 In this algorithm, we simply iterate character per character over the original text, and build an output with the following rule:
@@ -30,3 +33,5 @@ In this algorithm, we simply iterate character per character over the original t
  - else add the character straight to the output
 
 This is as straightforward as it gets.
+
+</details>
