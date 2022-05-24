@@ -8,13 +8,15 @@ In this exercise we consider the text will always be all in lower cases.
 
 Examples:
 
-```
-translate('hello') => 'havellavo'
-A simple example
+```python
+# simple example
+translate('hello') #'havellavo'
 
+# double voyel
+# Here the first vowel 'e' get an 'av' prefix, but not 'u' since it's a double vowel
 translate('feu') => 'faveu'
-Here the first vowel 'e' get an 'av' prefix, but not 'u' since it's a double vowel
 
+# a more complex example
 translate('langue de feu') => 'lavangavue dave faveu'
 ```
 

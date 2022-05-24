@@ -4,21 +4,16 @@ Write a function solution(S) that counts the number of times the word BALLOON ca
 
 For example:
 
-```
-solution('BAXXLLOON') => 1
-```
-Here BALLOON can be written only one time
+```python
+# Here BALLOON can be written only one time
+solution('BAXXLLOON') #1
 
-```
-solution('QAWABAWONL') => 0
-```
-Not enough L and O in this case to write BALLOON, so the result is 0
+# Not enough L and O in this case to write BALLOON, so the result is 0
+solution('QAWABAWONL') #0
 
+# You can try doing this one manually, it's 3 ;-)
+solution('ONLABLABLOONONLABLABLOON') #3
 ```
-solution('ONLABLABLOONONLABLABLOON') => 3
-```
-
-
 
 # solution
 

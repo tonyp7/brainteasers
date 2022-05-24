@@ -4,12 +4,12 @@ Write a function is_duo_digit that takes as a parameter an integer. The function
 
 For example:
 
-```
-is_duo_digit(12) => 'y'
-is_duo_digit(-3333) => 'y'
-is_duo_digit(102) => 'n'
-is_duo_digit(789) => 'n'
-is_duo_digit(7887) => 'y'
+```python
+is_duo_digit(12) # 'y' 12 is made of ones and twos
+is_duo_digit(-3333) # 'y' -3333 is only made out of threes
+is_duo_digit(102) # 'n' 102 is made out of ones, zeroes and twos: this is more than two uniques digits
+is_duo_digit(789) # 'n'
+is_duo_digit(7887) # 'y'
 ```
 
 
