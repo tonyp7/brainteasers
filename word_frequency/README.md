@@ -16,6 +16,8 @@ solution(example) #[1, 1, 1, 2]
 # solution
 
 <details>
+    <summary markdown="span">click to reveal</summary>
+    
 This problem would actually be harder if we were asked to simply output the count of words in the order that they were found.
 But because we are being asked to output in alphabetical order, this is a tremendous help that will simplify our lives.
 
