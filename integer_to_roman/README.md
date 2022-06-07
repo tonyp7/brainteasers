@@ -64,7 +64,7 @@ Explanation: M = 1000, CM = 900, XC = 90 and IV = 4.
 First of all, despite the constraint being 1 <= num <= 3999, the problem does not say what we should do if an input is out of range,
 meaning we can ignore this constraint altogether and that the input will always respect the constraint.
 
-As for the algorithm itself, there are different ways to solve this, one by trying to be clever and substracting/adding as per the
+As for the algorithm itself, there are different ways to solve this, and you can try being clever and substracting/adding as per the
 problem statement and building a string.
 
 The reality is this is a waste of time in this case. The more optimized algorithm is simply to realize that we can build a table 
@@ -88,6 +88,8 @@ If we have these tables, the algorithm simply becomes:
  - Get string representation for hundreds, add to output string
  - Get string representation for tens, add to output string
  - Get string representation for units, add to output string
+
+Note that if the problem statement was explicitly asking to optimize for memory usage, this would not be the correct answer.
 
 There are two approach for this:
 
