@@ -33,4 +33,6 @@ There are three cases:
 - if minBAL*2 <= minLO, the limiting factor is BAL, so we can only write BALLOON minBAL times
 - otherwise, the limiting facotr is LO, so we can only only write BALLOON minLO times. If the number is not even it is rounded down.
 
+Another more traditionnal approach would be to brute force the string. Each time you encounter a B for instance you create a new Balloon entry with only B. At the end of the iteration you can count how many complete balloon you have. This is suboptimal in terms of memory as the first algorithm is O(1) in space and this second approach is O(N) 
+
 </details>
